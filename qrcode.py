@@ -42,15 +42,15 @@ email_display=Entry(win,font=('monospace',20,'bold'),textvariable=email_input,bd
 dob_lbl=Label(win,text="Date Of Birth ",fg='#143347',width=25).grid(row=2,column=0)
 dob_display=Entry(win,font=('monospace',20,'bold'),textvariable=dob_input,bd=3,insertwidth=2,width=35,bg="#C2E3DB",justify='left').grid(row=2,column=1)
 
-#Emergency Contact Number-1
+#mobile number
 mbn_lbl=Label(win,text="Mobile Number ",fg='#143347',width=25).grid(row=3,column=0)
 mbn_display=Entry(win,font=('monospace',20,'bold'),textvariable=mbn_input,bd=3,insertwidth=2,width=35,bg="#C2E3DB",justify='left').grid(row=3,column=1)
 
-#Emergency Contact Number-2
+#LInkedin
 eme2_lbl=Label(win,text="LinkedIn ",fg='#143347',width=25).grid(row=4,column=0)
 eme2_display=Entry(win,font=('monospace',20,'bold'),textvariable=eme2_input,bd=3,insertwidth=2,width=35,bg="#C2E3DB",justify='left').grid(row=4,column=1)
 
-#Aadhar Number 
+#Insta/FB Number 
 instafb_lbl=Label(win,text="Instagram/Facebook ",fg='#143347',width=25).grid(row=5,column=0)
 instafb_display=Entry(win,font=('monospace',20,'bold'),textvariable=instafb_input,bd=3,insertwidth=2,width=35,bg="#C2E3DB",justify='left').grid(row=5,column=1)
 
