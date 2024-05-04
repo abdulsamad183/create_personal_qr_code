@@ -34,7 +34,7 @@ address_input=StringVar()
 name_lbl=Label(win,text=" Name ",fg='#143347',width=25).grid(row=0,column=0)
 name_display=Entry(win,font=('monospace',20,'bold'),textvariable=name_input,bd=3,width=35,insertwidth=2,bg="#C2E3DB",justify='left').grid(row=0,column=1)
 
-#Blood Group
+#Email
 email_lbl=Label(win,text="Email ",fg='#143347',width=25).grid(row=1,column=0)
 email_display=Entry(win,font=('monospace',20,'bold'),textvariable=email_input,bd=3,insertwidth=2,width=35,bg="#C2E3DB",justify='left').grid(row=1,column=1)
 
